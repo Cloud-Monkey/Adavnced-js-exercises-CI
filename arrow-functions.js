@@ -34,3 +34,10 @@ const saySomething2 = () => console.log("Hello!")
 saySomething2();
 
 // Returning Multiple Lines
+const returnMultipleLines = () => (
+    `<p>
+        Here is some text!
+    </p>`
+);
+
+console.log(returnMultipleLines())
