@@ -28,7 +28,9 @@ console.log(sum2);
 
 // Implicit Returns
 const saySomething = message => console.log(message)
-
 saySomething("I'm Ronnie Pickering! Let's have a bare-knuckle then!")
+
+const saySomething2 = () => console.log("Hello!")
+saySomething2();
 
 // Returning Multiple Lines
