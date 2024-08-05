@@ -27,5 +27,8 @@ let sum2 = addTwoNumbers2(8, 10);
 console.log(sum2);
 
 // Implicit Returns
+const saySomething = message => console.log(message)
+
+saySomething("I'm Ronnie Pickering! Let's have a bare-knuckle then!")
 
 // Returning Multiple Lines
